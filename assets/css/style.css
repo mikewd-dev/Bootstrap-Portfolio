@@ -40,6 +40,8 @@ text-align: center;
 font-family: auto;
   }
 
+
+
   /* .hero-banner {
     display: flex;
     flex-direction: row;
@@ -74,6 +76,10 @@ position: relative;
 
 .about .container {
 background: #fadbc7;
+}
+
+.projects {
+  justify-content:center;
 }
 
 figcaption{
