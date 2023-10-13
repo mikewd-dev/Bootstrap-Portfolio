@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .navbar-nav{
+margin-left: auto;
+margin-right: 0;
+  }
+
+  .hero-banner {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 200px;
+    background-image: url('../images/02-hero-bg.jpg');
+    background-position: 0 22%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+
+
+  }
+
+  .hero-banner h2 {
+    background-color: #76b9c1;
+    margin-top: 145px;
+  }
+
+.about img{
+  height: auto;
+  width: 100%;
+}
+
+.about {
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+figcaption{
+  position: absolute;
+font-size: 30px;
+font-family: cursive;
+margin-top: -10%;
+margin-left: 7%;
+color: antiquewhite;
+}
+
